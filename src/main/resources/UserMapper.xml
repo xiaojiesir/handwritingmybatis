@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mapper nameSpace="com.xiaojiesir.mymybatis.mapper.UserMapper">
+    <select id="getUserById" resultType="com.xiaojiesir.mymybatis.bean.User">
+        select * from t_user where id = ?
+    </select>
+</mapper>
